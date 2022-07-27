@@ -1,0 +1,40 @@
+{
+  "name": "doauth",
+  "version": "0.0.1",
+  "description": "OAuth at the Edge with Cloudflare Worker Durable Objects",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drivly/doauth.git"
+  },
+  "keywords": [
+    "api",
+    "api-gateway",
+    "cloudflare",
+    "workers",
+    "durable-objects",
+    "kv",
+    "r2",
+    "service-bindings"
+  ],
+  "author": "Driv.ly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drivly/doauth/issues"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "homepage": "https://github.com/drivly/doauth#readme",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
